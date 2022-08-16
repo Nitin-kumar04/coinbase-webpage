@@ -1,0 +1,502 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-light" id="navbar">
+    <div class="container-fluid">
+      <a class="navbar-brand" id="navbrand" href="#">coinbase</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav nav">
+          <li class="nav-item nav1 ">
+            <a class="nav-link active" aria-current="page" href="#">Explore</a>
+          </li>
+          <li class="nav-item nav1">
+            <a class="nav-link active" aria-current="page" href="#">Learn</a>
+          </li>
+          <li class="nav-item nav1">
+            <a class="nav-link active" aria-current="page" href="#">Individuals</a>
+          </li>
+          <li class="nav-item nav1">
+            <a class="nav-link active" aria-current="page" href="#">Businesses</a>
+          </li>
+          <li class="nav-item nav1">
+            <a class="nav-link active" aria-current="page" href="#">Developers</a>
+          </li>
+          <li class="nav-item nav1">
+            <a class="nav-link active" aria-current="page" href="#">Company</a>
+          </li>
+        </ul>
+
+      </div>
+      <div><a class="nav-link active" id="signin" aria-current="page" href="#">Sign in</a></div>
+      <div>
+        <form class="d-flex" role="search">
+
+          <button class="btn text-white btn-primary" id="btn" type="submit">Get Started</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!--container 1-->
+  <div class="container-fluid contain" id="container-fluid1">
+    <div class="row justify-content-center" id="row1">
+      <div class="col-md-6" id="col1">
+        <h5 class="h51"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+            class="bi bi-currency-bitcoin" viewBox="0 0 16 16">
+            <path
+              d="M5.5 13v1.25c0 .138.112.25.25.25h1a.25.25 0 0 0 .25-.25V13h.5v1.25c0 .138.112.25.25.25h1a.25.25 0 0 0 .25-.25V13h.084c1.992 0 3.416-1.033 3.416-2.82 0-1.502-1.007-2.323-2.186-2.44v-.088c.97-.242 1.683-.974 1.683-2.19C11.997 3.93 10.847 3 9.092 3H9V1.75a.25.25 0 0 0-.25-.25h-1a.25.25 0 0 0-.25.25V3h-.573V1.75a.25.25 0 0 0-.25-.25H5.75a.25.25 0 0 0-.25.25V3l-1.998.011a.25.25 0 0 0-.25.25v.989c0 .137.11.25.248.25l.755-.005a.75.75 0 0 1 .745.75v5.505a.75.75 0 0 1-.75.75l-.748.011a.25.25 0 0 0-.25.25v1c0 .138.112.25.25.25L5.5 13zm1.427-8.513h1.719c.906 0 1.438.498 1.438 1.312 0 .871-.575 1.362-1.877 1.362h-1.28V4.487zm0 4.051h1.84c1.137 0 1.756.58 1.756 1.524 0 .953-.626 1.45-2.158 1.45H6.927V8.539z" />
+          </svg> Jump start your portfolio <strong><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+              fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+              <path fill-rule="evenodd"
+                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+            </svg></strong></h5>
+        <h5 class="h11 h1"><strong> Jump start <br> your crypto <br> portfolio </strong> </h5>
+        <h5 class="h511">Coinbase is the easiest place to buy and sell <br> cryptocurrency. Sign up and get started
+          today.</h5>
+
+        <!-- <nav class="navbar ">
+            <div class="container-fluid">
+              <div class="row justify-content-center" >
+                <div class="col-md-6" >
+                  <form class=" justify-content-center"  id="class1"role="search">
+                    <input class="form-control me-2 " id="search1" type="Email address" placeholder="Email address" aria-label="Email address">
+                    
+                  </form>
+                </div>
+                <div class="col-md-6" >
+                  <form class="btn1 "  role="search"></form>
+                  <button class="btn" id="btn1" type="submit">Get started</button>
+                </form>
+                </div>
+              </div>
+            </div>
+          </nav> -->
+
+        <!-- search email -->
+
+        <div class="email-box">
+          <div class="search-bar">
+            <input type="email" class="form-control me-2" placeholder="Email address">
+          </div>
+          <div class="btn2">
+            <button class="btn btn-primary">Get started</button>
+          </div>
+        </div>
+
+
+
+      </div>
+
+      <div class="col-md-6 pt-lg-5  d-none d-xl-block back" id="mobimg">
+
+        <div class="front">
+          <img src="./css/circles.png" alt="">
+        </div>
+        <div class="front1">
+          <img src="images/cryptomobile.png" class="img-fluid  shadow  " alt="" height="290px" width="230px"
+            id="mobimg1">
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!--container2-->
+
+  <div class="continer-fluid" id="container2">
+    <div class="row justify-content-center tabel1">
+      <div class="col-md-10 colum">
+        <table class="table  table-hover  ">
+          <thead>
+            <tr class="tab2">
+              <th colspan="2" class="trade">
+                <p>#</p>
+              </th>
+              <th colspan="2">
+                <p>Name</p>
+              </th>
+              <th colspan="2" class="price1">
+                <p>Price</p>
+              </th>
+              <th colspan="2" class="trade">
+                <p>Change</p>
+              </th>
+              <th colspan="2" class="trade">
+                <p>Chart</p>
+              </th>
+              <th colspan="2" class="trade">
+                <p>Trade</p>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row" class="num trade">1</th>
+              <td colspan="3"> <img src="images/btc-removebg-preview.png" alt="" height="45px"
+                  width="45px"><span><strong class="stg">Bitcoin</strong> </span><span>BTC</span></td>
+
+              <td class="price3"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="30" fill="currentColor"
+                  class="bi bi-currency-rupee" viewBox="0 0 16 16">
+                  <path
+                    d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4v1.06Z" />
+                </svg><strong class="price">2,010,103</strong></td>
+              <td colspan="2" class="text-success perc buy">+6.35%</td>
+              <td colspan="2" class="buy"><img src="images/chart.png" alt="" height="60px" width="100px"></td>
+              <td colspan="2" class="buy"><button class="btn btn-success ">Buy</button></td>
+            </tr>
+            <tr>
+              <th scope="row" class="num trade">2</th>
+              <td colspan="3"> <img src="images/teh-removebg-preview.png" alt="" height="45px"
+                  width="45px"><span><strong class="stg">Ethereum</strong> </span><span>ETH</span></td>
+              <td colspan="2" class="price3"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="30"
+                  fill="currentColor" class="bi bi-currency-rupee" viewBox="0 0 16 16">
+                  <path
+                    d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4v1.06Z" />
+                </svg><strong class="price">135,786.32</strong></td>
+              <td colspan="2" class="text-success perc buy">+11.25%</td>
+              <td colspan="2" class="buy"><img src="images/chart.png" alt="" height="60px" width="100px"></td>
+              <td colspan="2" class="buy"><button class="btn btn-success ">Buy</button></td>
+            </tr>
+            <tr>
+              <th scope="row" class="num trade">3</th>
+              <td colspan="3"> <img src="images/car-removebg-preview.png" alt="" height="45px"
+                  width="45px"><span><strong class="stg">Cardano</strong> </span><span>ADA</span></td>
+              <td colspan="2" class="price3"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="30"
+                  fill="currentColor" class="bi bi-currency-rupee" viewBox="0 0 16 16">
+                  <path
+                    d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4v1.06Z" />
+                </svg><strong class="price">40.85</strong></td>
+              <td colspan="2" class="text-danger perc buy">-0.45%</td>
+              <td colspan="2" class="buy"><img src="images/chart.png" alt="" height="60px" width="100px"></td>
+              <td colspan="2" class="buy"><button class="btn btn-success ">Buy</button></td>
+            </tr>
+            <tr>
+              <th scope="row" class="num trade">4</th>
+              <td colspan="3"> <img src="images/Sol-removebg-preview.png" alt="" height="45px"
+                  width="45px"><span><strong class="stg">Solana</strong> </span><span>SOL</span></td>
+              <td colspan="2" class="price3"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="30"
+                  fill="currentColor" class="bi bi-currency-rupee" viewBox="0 0 16 16">
+                  <path
+                    d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4v1.06Z" />
+                </svg><strong class="price">3,189.30</strong></td>
+              <td colspan="2" class="text-success perc buy">+5.34%</td>
+              <td colspan="2" class="buy"><img src="images/chart.png" alt="" height="60px" width="100px"></td>
+              <td colspan="2" class="buy"><button class="btn btn-success ">Buy</button></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!--container3  -->
+  <div>
+    <div class="container-fluid">
+      <div class="row justify-content-center">
+        <div class="col-10">
+          <div>
+            <h3 class="h33">Create your cryptocurrency portfolio today</h3>
+          </div>
+          <div>
+            <p class="par">Coinbase has a variety of features that make it the best place to start trading</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- container4 -->
+
+  <div>
+    <div class="container-fluid">
+      <div class="row justify-content-center test">
+        <div class="col-4 cols">
+
+          <div class="row rows">
+
+            <div class="col-3 colm">
+              <div class="circle2 shadow-sm"> <img src="images/folder-removebg-preview.png" alt="" width="30px"
+                  height="30px" class="imgsm"></div>
+            </div>
+            <div class="col-9">
+              <p class="per"><strong>Manage your portfolio</strong></p>
+              <p class="per1">Buy and sell popular digital currencies, keep track of them in the one place.</p>
+            </div>
+          </div>
+
+          <div class="row rows1">
+            <div class="col-3 colm">
+              <div class="circle2 shadow-sm"><img src="images/lock-removebg-preview.png" alt="" width="30px"
+                  height="30px" class="imgsm"></div>
+            </div>
+            <div class="col-9">
+              <p class="per"><strong>Vault protection</strong></p>
+              <p class="per1">For added security, store your funds in a vault with time delayed withdrawals.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-3 colm">
+              <div class="circle2 shadow-sm"><img src="images/phone-removebg-preview.png" alt="" width="30px"
+                  height="30px" class="imgsm"></div>
+            </div>
+            <div class="col-9">
+              <p class="per"><strong>Mobiles app</strong></p>
+              <p class="per1">Stay on top of the markets with the Coinbase app for <span>Android</span> or
+                <span>ios</span>.
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+
+
+        <div class="col-6">
+          <img src="images/coinbase.jpg" alt="" class="coinimg">
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+  <hr class="hr">
+
+
+  <!--container5  -->
+  <div>
+    <div class="container-fluid">
+      <div class="row justify-content-center">
+        <div class="col-10">
+          <div>
+            <h3 class="h33">The most trusted cryptocurrency platform</h3>
+          </div>
+          <div>
+            <p class="para">Here are a few reasons why you should choose Coinbase</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- container6 -->
+
+  <div class="container6">
+    <div class="container-fluid">
+      <div class="row justify-content-around rowe">
+        <div class="col-8 col-md-4">
+          <div><img src="images/bag-removebg-preview.png" class="bags" alt=""></div>
+          <h5 class="h5s">Secure storage</h5>
+          <div class="p5">
+            <p>We store the vast majority of the digital <br> assets in secure offline storage.</p>
+          </div>
+          <div class="learn">
+            <h6>Learn more ></h6>
+          </div>
+        </div>
+        <div class="col-8 col-md-4">
+          <div><img src="images/sheld-removebg-preview.png" class="bags" alt=""></div>
+          <h5 class="h5s">Industry best practices</h5>
+          <div class="p5">
+            <p>Coinbase supports a variety of the most <br> popular digital currencies.</p>
+          </div>
+          <div class="learn">
+            <h6>Learn more ></h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- container7 -->
+  <div class="container-fluid">
+    <div class="row justify-content-center  container7">
+      <div class="col-8 col-md-3">
+        <h5 class="h56"><i class="bi bi-currency-rupee"></i> 44,00,000 Cr</h5>
+        <div class="div">
+          <h5>Quaterly volume traded</h5>
+        </div>
+      </div>
+      <div class="col-8 col-md-3">
+        <h5 class="h56">100+</h5>
+        <div class="div">
+          <h5>Countries supported</h5>
+        </div>
+      </div>
+      <div class="col-8 col-md-3">
+        <h5 class="h56">8.9+ Cr</h5>
+        <div class="div">
+          <h5>Verified users</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--container8  -->
+  <div>
+    <div class="container-fluid">
+      <div class="row justify-content-center">
+        <div class="col-10">
+          <div>
+            <h3 class="h33">Get started in a few minutes</h3>
+          </div>
+          <div>
+            <p class="para">Coinbase supports a variety of the most popular digital currencies.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- container8 -->
+
+  <div class="container-fluid">
+    <div class="row justify-content-around rrr">
+      <div class="col-8 col-md-3">
+        <img src="images/contact-removebg-preview.png" alt="" class="src">
+        <h5 class="hh">Create an account</h5>
+      </div>
+      <div class="col-8 col-md-3">
+        <img src="images/search-removebg-preview.png" alt="" class="src">
+        <h5 class="hh">Link your bank account</h5>
+      </div>
+      <div class="col-8 col-md-3">
+        <img src="images/bars-removebg-preview.png" alt="" class="src">
+        <h5 class="hh">Start buying & selling</h5>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- containet9 -->
+
+  <div class="container-fluid">
+    <div class="row justify-content-center row69">
+      <div class="col-8 col-md-3">
+        <a class="navbar-brand" id="logo" href="#">coinbase</a>
+        <div class="dropdown eng">
+          <button class="btn dropdown-toggle eng1" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            English
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">English</a></li>
+            <li><a class="dropdown-item" href="#">Dutch</a></li>
+            <li><a class="dropdown-item" href="#">Español - España</a></li>
+            <li><a class="dropdown-item" href="#">Español - América Latina</a></li>
+            <li><a class="dropdown-item" href="#">Français - France</a></li>
+            <li><a class="dropdown-item" href="#">日本語</a></li>
+            <li><a class="dropdown-item" href="#">Italiano</a></li>
+            <li><a class="dropdown-item" href="#">Polski</a></li>
+            <li><a class="dropdown-item" href="#">Português - Brasil</a></li>
+            <li><a class="dropdown-item" href="#">Português - Portugal</a></li>
+            <li><a class="dropdown-item" href="#">pdsff</a></li>
+            <li><a class="dropdown-item" href="#">ไทย</a></li>
+            <li><a class="dropdown-item" href="#">Türkçe</a></li>
+          </ul>
+        </div>
+        <p class="cb">© 2022 coinbase</p>
+        <p class="cb">Blog •Twitter•Facebook</p>
+      </div>
+      <div class="col-11 col-md-7 ">
+        <div class="row flast">
+          <div class="col-12 col-md-4">
+            <h6>Company</h6>
+            <p class="de">About</p>
+            <p class="de">Careers</p>
+            <p class="de">Affiliates</p>
+            <p class="de">Blog</p>
+            <p class="de">Press</p>
+            <p class="de">Investors</p>
+            <p class="de">Legal & privacy</p>
+            <p class="de">Cokie policy</p>
+            <p class="de">Digital Asset Disclosures</p>
+          </div>
+          <div class="col-12 col-md-4">
+            <h6>Individuals</h6>
+            <p class="de">Buy & sell</p>
+            <p class="de">Wallet</p>
+            <p class="de">NFT</p>
+            <p class="de"></p>
+            <h6>Businesses</h6>
+            <p class="de">Institutional</p>
+            <p class="de">Prime</p>
+            <p class="de">Asset Hub</p>
+            <p class="de">Commerce</p>
+          </div>
+          <div class="col-12 col-md-4">
+            <h6>Support</h6>
+            <p class="de">Help center</p>
+            <p class="de">Contact us</p>
+            <p class="de">Creat account</p>
+            <p class="de">ID verification</p>
+            <p class="de">Account information</p>
+            <p class="de">Payment methods</p>
+            <p class="de">Account access</p>
+            <p class="de">Supported crypto</p>
+            <p class="de">Supported countries</p>
+            <p class="de">Status</p>
+          </div>
+          <div class="row sub-flast">
+            <div class="col-12 col-md-4">
+              <h6>Learn</h6>
+              <p class="de">Browse crypto prices</p>
+            <p class="de">Coinbase Bytes newsletter</p>
+            <p class="de">Crypto basics</p>
+            <p class="de">Tips & tutorials</p>
+            <p class="de">Market updates</p>
+            <p class="de">What is bitcoin?</p>
+            <p class="de">What is crypto?</p>
+            <p class="de">What is blockchain?</p>
+            <p class="de">How to set up a crypto wallet</p>
+            <p class="de">How to send crypto</p>
+            <p class="de">Taxes</p>
+            
+            </div>
+            <div class="col-12 col-md-4">
+              <h6>Developers</h6>
+              <p class="de">Cloud</p>
+            <p class="de">Wallet SDK</p>
+            <p class="de">Coinbase pay SDK</p>
+            <p class="de">Query & Transact</p>
+            <p class="de">Commerce</p>
+            <p class="de">Exchange & Pro</p>
+            <p class="de">Sign in with Coinbase</p>
+            <p class="de">Rosetta</p>
+            <p class="de">Participate</p>
+            <p class="de">Prime API</p>
+            
+            </div>
+            <!-- <div class="col-4"> 
+              <h5>hlww</h5>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
