@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" height="393.7500000000001pt" width="629.9999999999999pt" viewBox="345 137 637.9999999999999 399.7500000000001" ><defs><style type="text/css">
+            @font-face {
+                font-family: 'lt_regular';
+                src: url('https://app.creately.com/diagram/assets/fonts/lato/lt-regular-webfont.woff2') format('woff2'),
+                    url('https://app.creately.com/diagram/assets/fonts/lato/lt-regular-webfont.woff') format('woff');
+                font-weight: normal;
+                font-style: normal;
+            }
+            @font-face {
+                font-family: 'noto_regular';
+                src: url('https://app.creately.com/diagram/assets/fonts/noto/noto-regular.woff') format('woff'),
+                     url('https://app.creately.com/diagram/assets/fonts/noto/noto-regular.woff2') format('woff2');
+                font-weight: normal;
+                font-style: normal;
+            }
+        p {
+            margin: 0;
+        }
+        </style></defs><defs><style>
+            span{ display: inline-block; }
+        </style></defs><g id="vsOfQjU4Hb2"><g transform="translate(350 140)"><ellipse cx="196.87500000000006" cy="196.87500000000006" rx="196.87500000000006" ry="196.87500000000006" fill="rgb(243,119,94)" stroke="#ca4e35" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g></g><g id="AYhtbGtYhcN"><g transform="translate(586.2499999999998 140)"><ellipse cx="196.87500000000006" cy="196.87500000000006" rx="196.87500000000006" ry="196.87500000000006" fill="rgba(104,101,127,0.83)" stroke="#36334a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g></g><g id="fMDqh90nqCw"><g transform="translate(470 309.99999999999994)"><rect x="0" y="0" width="49.99999999999997" height="53" fill="rgba(255,255,255,0.01)" stroke="rgba(255,255,255,0.01)"/></g><g transform="translate(487, 319.99999999999994) rotate(0, 8, 0)" width="16" height="33"><text text-decoration="none" x="0" fill="rgb(255, 255, 255)" font-size="18pt" font-family="lt_regular"  y="26">A</text><text text-decoration="none" x="16" fill="#4b4b4b" font-size="10pt" font-family="noto_regular"  y="26"></text></g></g><g id="KrWaBFu5TPG"><g transform="translate(810 309.99999999999994)"><rect x="0" y="0" width="49.99999999999997" height="53" fill="rgba(255,255,255,0.01)" stroke="rgba(255,255,255,0.01)"/></g><g transform="translate(827.5, 319.99999999999994) rotate(0, 7.5, 0)" width="15" height="33"><text text-decoration="none" x="0" fill="rgb(255, 255, 255)" font-size="18pt" font-family="lt_regular"  y="26">B</text><text text-decoration="none" x="16" fill="#4b4b4b" font-size="10pt" font-family="noto_regular"  y="26"></text></g></g><g id="r1f18Yitfo4"><g transform="translate(640 319.99999999999994)"><rect x="0" y="0" width="49.99999999999997" height="53" fill="rgba(255,255,255,0.01)" stroke="rgba(255,255,255,0.01)"/></g><g transform="translate(649, 329.99999999999994) rotate(0, 16, 0)" width="32" height="33"><text text-decoration="none" x="0" fill="rgb(255, 255, 255)" font-size="18pt" font-family="lt_regular"  y="26">AB</text><text text-decoration="none" x="32" fill="#4b4b4b" font-size="10pt" font-family="noto_regular"  y="26"></text></g></g></svg>
